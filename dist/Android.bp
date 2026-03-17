@@ -72,6 +72,7 @@ cc_defaults {
         "-DSQLITE_DEFAULT_LEGACY_ALTER_TABLE",
         "-DSQLITE_ALLOW_ROWID_IN_VIEW",
         "-DSQLITE_ENABLE_BYTECODE_VTAB",
+        "-DSQLITE_ENABLE_STAT4",
         "-Wno-unused-parameter",
         "-Werror",
 
